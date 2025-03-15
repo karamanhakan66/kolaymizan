@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KolayMizan")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe1c5a69c2413eaa0a0db39ab103cb5591e78d9e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed6aca085d04410bf3d4e16d02c0d516d9972023")]
 [assembly: System.Reflection.AssemblyProductAttribute("KolayMizan")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KolayMizan")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

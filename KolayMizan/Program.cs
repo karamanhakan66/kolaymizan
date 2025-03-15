@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using KolayMizan.Data;
+using KolayMizan.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,10 +12,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Servis kayıtları
-// Şimdilik servis kayıtlarını kaldırıyoruz
-/*
 builder.Services.AddScoped<IKullaniciService, KullaniciService>();
 builder.Services.AddScoped<ICariService, CariService>();
+/*
 builder.Services.AddScoped<IUrunService, UrunService>();
 builder.Services.AddScoped<IFaturaService, FaturaService>();
 builder.Services.AddScoped<IOdemeService, OdemeService>();
